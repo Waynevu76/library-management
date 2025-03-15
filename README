@@ -1,0 +1,13 @@
+Clone repository:
+git clone https://github.com/yourusername/library-management-php-mvc.git
+cd library-management-php-mvc
+
+Cấu hình cơ sở dữ liệu:
+
+Import file database.sql vào MySQL
+
+Cập nhật thông tin cấu hình trong config/database.php
+
+Chạy project:
+
+Sử dụng PHP built-in server:

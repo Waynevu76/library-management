@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp viền */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Đường viền */
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #f4f4f4; /* Màu nền cho tiêu đề */
+    font-weight: bold;
+}
+
+/* Hiệu ứng hover */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px; /* Chừa khoảng trống để không bị đè lên nội dung */
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+.active {
+    background-color: #4eadcc;
+}
+
