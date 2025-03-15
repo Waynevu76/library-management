@@ -1,13 +1,20 @@
-Clone repository:
-git clone https://github.com/yourusername/library-management-php-mvc.git
-cd library-management-php-mvc
+1. Clone repository:
+```bash
+    git clone https://github.com/Waynevu76/library-management.git
+    cd library-management
+```
 
-Cấu hình cơ sở dữ liệu:
+2. Cấu hình cơ sở dữ liệu: 
+    - Chỉnh sửa file .env để kết nối vào MySQL
+    ```bash
+    DB_HOST= host_name
+    DB_USER= user_name
+    DB_PASS= password_db
+    DB_NAME= database_name
+    ```
 
-Import file database.sql vào MySQL
+3. Chạy project:
 
-Cập nhật thông tin cấu hình trong config/database.php
-
-Chạy project:
-
-Sử dụng PHP built-in server:
+```bash
+    php -S localhost:8000 -t public
+```
